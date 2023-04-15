@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 1;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(https://cdn.sivanaspirit.com/wp-content/uploads/2015/09/04190455/un90.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 6%;
+	padding-right: 6%;
+	box-sizing: border-box;
+}
+
+.navbar {
+	height: 14% ;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo {
+	width: 70px
+	cursor: pointer;
+}
+
+.menu-icon {
+	width: 40px;
+	cursor: pointer;
+	margin: 40px;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col {
+	font-size: 10px;
+	color: floralwhite;
+	flex-basis: 50%;
+}
+
+h1 {
+	font-size: 100px;
+	color: floralwhite;
+}
+
+p {
+	font-size: 20px;
+	line-height: 14px;
+}
+
+button {
+	width: 180px;
+	padding: 8px 0;
+	border-radius: 50px;
+	font-size: 2%;
+	color: #000;
+	background: #fff;
+	outline: none;
+	margin-top: 15px;
+
+}
+
+.card {
+	
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border: 2px solid gray;
+	border-radius: 14px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(https://i0.wp.com/girleatworld.net/wp-content/uploads/2018/01/a57bf6e0-5d3e-4e1c-b15e-df6b8414fef9.jpg?fit=1400%2C1049&ssl=1);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://media-cdn.tripadvisor.com/media/photo-o/18/1e/20/ad/the-gate-of-heaven.jpg);;
+
+}
+.card2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(https://media-cdn.tripadvisor.com/media/photo-o/09/02/ad/b0/tirta-gangga.jpg);
+}
+.card3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://images.squarespace-cdn.com/content/v1/596b2969d2b85786e6892853/1654207362252-1XKJD1H6GD1IA61QC3B6/0K3A5999.jpg?format=1500w)
+}
+
+h4{
+	font-size: 8px;
+}
+
+p {
+	font-size: 2px;
+
+}
+
+.card:hover {
+	transform: translateY(-10px);
+}
